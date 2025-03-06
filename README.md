@@ -14,6 +14,9 @@ The RegressionModel class uses the simulation data from SimData class instances 
 - sixdofsim.m
 The sixdofsim.m script is used for rigid body dynamics (RBD) simulation using the GPR model to predict the store separation trajectory. It loads the GPR model, initializes the simulation parameters, and solves the ODE to simulate the store's trajectory.
 
+- simData.mat
+It contains already generated store state and force data using SimData class
+
 ## Usage
 
 Ensure all required files and data are in place.
